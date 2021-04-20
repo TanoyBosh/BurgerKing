@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <title> Burger King </title>
+ 
+</head>
+
+<body class="bg">
+
+    <!-- header1 -->
+    <h1> <span class="headers"> Make your burger your way! 🍔 </span> </h1><br>
+
+    <!-- header2 -->
+    <h2> <span class="headers"> Choose your Burger! </span> </h2>
+
+    <!-- options -->
+    <div>
+        <select>
+            <option> choose burger </option>
+            <option> 🥦 veg burger </option>
+            <option> 🥩 non-veg burger </option>
+        </select>
+    </div>
+
+    <!-- available items -->
+    <div class="list-group-item list-group-item-action" id="drag1" draggable="true" ondragstart="drag(event)">
+        🥬<br>Veg
+    </div>
+    <div class="list-group-item list-group-item-action" id="drag2" draggable="true" ondragstart="drag(event)">
+        🍗<br>Chicken
+    </div>
+    <div class="list-group-item list-group-item-action" id="drag3" draggable="true" ondragstart="drag(event)">
+        🍖<br>Mutton
+    </div>
+    <div class="list-group-item list-group-item-action" id="drag4" draggable="true" ondragstart="drag(event)">
+        🥚<br>Egg
+    </div>
+    <div class="list-group-item list-group-item-action" id="drag5" draggable="true" ondragstart="drag(event)">
+        🧀<br>Cheese
+    </div>
+    <br>
+
+    <!-- dropbox kitchen-->
+    <div id="box" class="box" ondrop="drop(event)" ondragover="allowDrop(event)"> 🔥 Drop here in Kitchen! 🔥 </div>
+    <br>
+
+    <!-- cook button -->
+    <div class="button">
+        <button id="btn" type="button" class="btn btn-danger btn-lg"> Cook </button>
+    </div>
+
+    <!-- copyright part -->
+    <div class="footer">
+        <span class="footer">
+            © Copyright © <br>
+            ® Burger King ®
+        </span>
+    </div>
+
+
+</body>
+
+</html>

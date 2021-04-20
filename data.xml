@@ -1,0 +1,20 @@
+<!-- xml datasheet -->
+<?xml version="1.0" encoding="UTF-8"?>
+<BurgerKing>
+    <option>Choose a Burger!</option>
+    <Burgers>
+
+        <type1 category"Veg buger"=>
+            <kind1>cheese</kind1>
+            <kind2>veg</kind2>
+        </type1>
+
+        <type2 category"Non-Veg buger">
+            <kind1>chicken</kind1>
+            <kind2>mutton</kind2>
+            <kind3>egg</kind3>
+        </type2>
+
+    </Burgers>
+    <final>Cook</final>
+</BurgerKing>

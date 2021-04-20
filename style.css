@@ -1,0 +1,128 @@
+/* background image */
+.bg {
+    background-image: url("Burger.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    font-family: 'open Sans', sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+/* header 1,2 span */
+.headers {
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* header1 */
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: auto;
+    height: auto;
+    border: 5px solid #dc3545;
+    font-family: 'open Sans', sans-serif;
+    font-size: 3rem;
+    font-weight: bolder;
+    background-color: #dc3545;
+}
+
+/* header2 */
+h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #dc3545;
+}
+
+div {
+    margin-top: 40px;
+    text-align: center;
+    text-align-last: center;
+}
+
+/* dropbox kitchen */
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: auto;
+    border: 4px solid #dc3545;
+    border-radius: 5px;
+    font-family: 'open Sans', sans-serif;
+    margin-top: 20px;
+    font-size: 22px;
+    color: #fff;
+    background-color: #dc3545;
+}
+
+/* cook button */
+.button {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+/* available items */
+#drag1,
+#drag2,
+#drag3,
+#drag4,
+#drag5 {
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+/* available items colors */
+#drag1 {
+    color: olivedrab;
+}
+
+#drag2 {
+    color: sienna;
+}
+
+#drag3 {
+    color: saddlebrown;
+}
+
+#drag4 {
+    color: grey;
+}
+
+#drag5 {
+    color: salmon;
+}
+
+/* mouse hover color */
+#drag1:hover,
+#drag2:hover,
+#drag3:hover,
+#drag4:hover,
+#drag5:hover,
+.box:hover,
+#btn:hover {
+    background-color: darkred;
+}
+
+/* copyright part */
+.footer {
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+    background-color: goldenrod;
+    margin-bottom: 0rem;
+}

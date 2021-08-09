@@ -19,3 +19,8 @@ function max(max){
     }
 }
 max(max);
+
+function func() {
+    alert("Your burger is cooking...");
+    document.getElementById("btn").innerHTML = "Cooking";
+}

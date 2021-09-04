@@ -21,6 +21,6 @@ function max(max){
 max(max);
 
 function func() {
-    alert("Your burger is cooking...");
+    alert("Your burger is cooking... Thank you for visiting the site");
     document.getElementById("btn").innerHTML = "Cooking";
 }
